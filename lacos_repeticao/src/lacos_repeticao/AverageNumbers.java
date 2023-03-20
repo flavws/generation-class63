@@ -17,7 +17,6 @@ public class AverageNumbers {
 			if(num % 3 == 0 && num != 0) {
 				multiplos = multiplos + num;
 				contNum++;
-				System.out.println(contNum++);
 			}
 			
 		}while(num != 0);
