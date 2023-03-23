@@ -19,11 +19,11 @@ public class NumberFinder {
 		num = leia.nextInt();
 
 
-			if(numeros.contains(num)) {
-				System.out.println("\nO número " + num + " está localizado na posição:\n" + numeros.indexOf(num));
-			} else {
-				System.out.println("\nO número " + num + " não foi encontrado!");
-			}
+		if(numeros.contains(num)) {
+			System.out.println("\nO número " + num + " está localizado na posição:\n" + numeros.indexOf(num));
+		} else {
+			System.out.println("\nO número " + num + " não foi encontrado!");
+		}
 
 				
 		
